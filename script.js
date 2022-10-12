@@ -28,7 +28,7 @@ btn.addEventListener('click', function(e){
 
     img.textContent = abbr;
     nameop.textContent = username;
-    idop.textContent = userid;
+    idop.textContent = "@"+userid;
     body.textContent = msg;
     sec2.style.display = 'flex';
     scrollTo(0, 780)
